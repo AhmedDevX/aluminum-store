@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 16px clamp(20px, 5vw, 64px);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.navbar__link {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar__link:hover {
+  color: var(--color-text);
+}
+
+.navbar__link.is-active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+  font-weight: 600;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__action {
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.navbar__action:hover {
+  border-color: var(--color-primary);
+}
+
+.navbar__action--icon {
+  width: 34px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.navbar__action {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar__account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__account-name {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}

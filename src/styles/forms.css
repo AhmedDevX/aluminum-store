@@ -1,0 +1,78 @@
+/* Shared form primitives used by every form in the app: login/register,
+   the quote request form, and future forms (chat compose, admin, etc). */
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-field label {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.auth-field input,
+.auth-field textarea {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.auth-field input:focus-visible,
+.auth-field textarea:focus-visible {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(58, 110, 165, 0.18);
+}
+
+.auth-field input[aria-invalid="true"],
+.auth-field textarea[aria-invalid="true"] {
+  border-color: var(--color-error);
+}
+
+.auth-field__error {
+  font-size: 0.8rem;
+  color: var(--color-error);
+}
+
+.auth-submit {
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.auth-submit:hover {
+  background: var(--color-primary-hover);
+}
+
+.auth-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.auth-submit:disabled:hover {
+  background: var(--color-primary);
+}
+
+.auth-server-error {
+  background: rgba(193, 68, 14, 0.1);
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  margin: 0;
+}

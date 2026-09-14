@@ -1,0 +1,146 @@
+.auth-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 860px) {
+  .auth-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.auth-panel {
+  position: relative;
+  background: var(--color-panel-bg);
+  color: var(--color-panel-text);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 48px;
+}
+
+@media (max-width: 860px) {
+  .auth-panel {
+    min-height: 220px;
+    align-items: center;
+    padding: 32px 24px;
+  }
+}
+
+.auth-panel__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.auth-panel__content {
+  position: relative;
+  z-index: 1;
+  max-width: 380px;
+}
+
+.auth-panel__brand {
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: var(--color-metal);
+  margin: 0 0 16px;
+}
+
+.auth-panel__tagline {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.auth-panel__subtagline {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-metal);
+  margin: 0;
+}
+
+.auth-form-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.auth-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 8px;
+}
+
+.auth-tabs__item {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 12px 8px;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.auth-tabs__item.is-active {
+  color: var(--color-text);
+  border-bottom-color: var(--color-primary);
+  font-weight: 600;
+}
+
+.auth-form__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.auth-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-muted);
+}
+
+.auth-form__link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.auth-form__link:hover {
+  text-decoration: underline;
+}
+
+.auth-switch {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.auth-switch__link {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.auth-switch__link:hover {
+  text-decoration: underline;
+}
