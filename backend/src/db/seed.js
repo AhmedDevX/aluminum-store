@@ -5,8 +5,8 @@ import { config } from "../config.js";
 const SAMPLE_PRODUCTS = [
   {
     category: "windows",
-    name_ar: "شباك ألومنيوم سحاب",
-    name_en: "Aluminum Sliding Window",
+    name_ar: "شباك الوميتال سحاب",
+    name_en: "Alumetal Sliding Window",
     description_ar: "شباك سحاب بفردتين، مناسب للصالات والغرف، متاح بمقاسات مخصصة.",
     description_en: "Two-panel sliding window, suitable for living rooms and bedrooms.",
     images: [
@@ -15,8 +15,8 @@ const SAMPLE_PRODUCTS = [
   },
   {
     category: "doors",
-    name_ar: "باب ألومنيوم مدخل رئيسي",
-    name_en: "Aluminum Main Entrance Door",
+    name_ar: "باب الوميتال مدخل رئيسي",
+    name_en: "Alumetal Main Entrance Door",
     description_ar: "باب مدخل بتصميم عصري، متوفر بعدة ألوان وتشطيبات.",
     description_en: "Modern entrance door design, available in several finishes.",
     images: [
@@ -25,10 +25,10 @@ const SAMPLE_PRODUCTS = [
   },
   {
     category: "wardrobes",
-    name_ar: "دولاب ألومنيوم سرايدر",
-    name_en: "Aluminum Sliding Wardrobe",
-    description_ar: "دولاب بأبواب سحاب من الألومنيوم، مساحة تخزين مرنة حسب المقاس.",
-    description_en: "Sliding-door aluminum wardrobe, sized to your space.",
+    name_ar: "دولاب الوميتال سرايدر",
+    name_en: "Alumetal Sliding Wardrobe",
+    description_ar: "دولاب بأبواب سحاب من الالوميتال، مساحة تخزين مرنة حسب المقاس.",
+    description_en: "Sliding-door Alumetal wardrobe, sized to your space.",
     images: [
       "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=600"
     ]

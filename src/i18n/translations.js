@@ -1,8 +1,8 @@
 export const translations = {
   ar: {
-    brand: "متجر الألومنيوم",
-    tagline: "نُشكّل مشروعك بمتانة الألومنيوم",
-    subtagline: "بروفايلات، شبابيك، وأبواب ألومنيوم بمقاسات مضبوطة على طلبك",
+    brand: "متجر الالوميتال",
+    tagline: "نُشكّل مشروعك بمتانة الالوميتال",
+    subtagline: "بروفايلات، شبابيك، وأبواب الوميتال بمقاسات مضبوطة على طلبك",
     tabLogin: "تسجيل الدخول",
     tabRegister: "حساب جديد",
     fullName: "الاسم بالكامل",
@@ -129,7 +129,7 @@ export const translations = {
 
     aboutHeroTitle: "مين إحنا",
     aboutHeroBody:
-      "متجر الألومنيوم شغال في تصنيع وتوريد بروفايلات وشبابيك وأبواب ودواليب الألومنيوم من سنين طويلة. بنشتغل بمقاسات مضبوطة على طلب كل عميل، وبنهتم بجودة الخامة والتنفيذ من أول الاستشارة لحد التركيب.",
+      "متجر الالوميتال شغال في تصنيع وتوريد بروفايلات وشبابيك وأبواب ودواليب الالوميتال من سنين طويلة. بنشتغل بمقاسات مضبوطة على طلب كل عميل، وبنهتم بجودة الخامة والتنفيذ من أول الاستشارة لحد التركيب.",
     aboutStat1Value: "+15",
     aboutStat1Label: "سنة خبرة",
     aboutStat2Value: "+2000",
@@ -138,7 +138,7 @@ export const translations = {
     aboutStat3Label: "عميل راضي",
     aboutValuesTitle: "ليه تختارنا",
     aboutValue1Title: "جودة الخامة",
-    aboutValue1Body: "بنستخدم ألومنيوم معتمد ومقاوم للصدأ والعوامل الجوية، مضمون على المدى الطويل.",
+    aboutValue1Body: "بنستخدم الوميتال معتمد     مضمون على المدى الطويل.",
     aboutValue2Title: "مقاسات مضبوطة",
     aboutValue2Body: "كل قطعة بتتقاس وتتصنّع على مقاس مكانها بالظبط، من غير أي فرق يأثر على التركيب.",
     aboutValue3Title: "متابعة لحد التسليم",
@@ -147,11 +147,11 @@ export const translations = {
     contactSectionTitle: "تواصل معنا",
     contactSectionSubtitle: "عندك استفسار أو طلب خاص؟ ابعتلنا رسالة وهنرد عليك بأقرب وقت",
     contactInfoPhoneLabel: "رقم الموبايل",
-    contactInfoPhoneValue: "01000000000",
+    contactInfoPhoneValue: "01280443768",
     contactInfoEmailLabel: "البريد الإلكتروني",
-    contactInfoEmailValue: "info@aluminum-store.example",
+    contactInfoEmailValue: "ahmed01280443768@gmail.com",
     contactInfoAddressLabel: "العنوان",
-    contactInfoAddressValue: "طنطا، الغربية، مصر",
+    contactInfoAddressValue: "  المنوفيه ",
     contactInfoHoursLabel: "مواعيد العمل",
     contactInfoHoursValue: "السبت - الخميس، 9 ص - 6 م",
     contactFormTitle: "ابعتلنا رسالة",
@@ -166,8 +166,8 @@ export const translations = {
     contactSendAnother: "إرسال رسالة تانية"
   },
   en: {
-    brand: "Aluminum Store",
-    tagline: "We shape your project with aluminum strength",
+    brand: "Alumetal Store",
+    tagline: "We shape your project with Alumetal strength",
     subtagline: "Profiles, windows, and doors cut precisely to your order",
     tabLogin: "Log In",
     tabRegister: "New Account",
@@ -295,7 +295,7 @@ export const translations = {
 
     aboutHeroTitle: "About Us",
     aboutHeroBody:
-      "Aluminum Store has been manufacturing and supplying aluminum profiles, windows, doors, and wardrobes for years. We build every piece to the exact size our customers need, and we care about material quality and craftsmanship from the first consultation through installation.",
+      "Alumetal Store has been manufacturing and supplying Alumetal profiles, windows, doors, and wardrobes for years. We build every piece to the exact size our customers need, and we care about material quality and craftsmanship from the first consultation through installation.",
     aboutStat1Value: "15+",
     aboutStat1Label: "Years of experience",
     aboutStat2Value: "2000+",
@@ -304,7 +304,7 @@ export const translations = {
     aboutStat3Label: "Happy customers",
     aboutValuesTitle: "Why choose us",
     aboutValue1Title: "Material quality",
-    aboutValue1Body: "We use certified aluminum that resists rust and weathering, built to last for the long run.",
+    aboutValue1Body: "We use certified Alumetal that resists rust and weathering, built to last for the long run.",
     aboutValue2Title: "Precise sizing",
     aboutValue2Body: "Every piece is measured and manufactured to fit its exact location, with no gaps affecting installation.",
     aboutValue3Title: "Support until delivery",
@@ -315,7 +315,7 @@ export const translations = {
     contactInfoPhoneLabel: "Phone number",
     contactInfoPhoneValue: "01000000000",
     contactInfoEmailLabel: "Email",
-    contactInfoEmailValue: "info@aluminum-store.example",
+    contactInfoEmailValue: "info@Alumetal-store.example",
     contactInfoAddressLabel: "Address",
     contactInfoAddressValue: "Tanta, Gharbia, Egypt",
     contactInfoHoursLabel: "Working hours",

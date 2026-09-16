@@ -8,7 +8,7 @@ export const config = {
     port: Number(process.env.DB_PORT) || 3306,
     user: process.env.DB_USER || "root",
     password: process.env.DB_PASSWORD || "",
-    database: process.env.DB_NAME || "aluminum_store"
+    database: process.env.DB_NAME || "Alumetal_store"
   },
   jwtSecret: process.env.JWT_SECRET || "dev-secret-change-me",
   corsOrigins: (process.env.CORS_ORIGIN || "http://localhost:5173")

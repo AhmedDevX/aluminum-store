@@ -1,4 +1,4 @@
-# Aluminum Store — Backend
+# Alumetal Store — Backend
 
 Node.js + Express + MySQL API, plus a Socket.IO server for the real-time
 chat. Matches the `src/api/client.js` contract used by the frontend
@@ -8,8 +8,8 @@ exactly.
 
 1. Create a MySQL database (locally or via any provider) and run the schema:
    ```
-   mysql -u root -p -e "CREATE DATABASE aluminum_store"
-   mysql -u root -p aluminum_store < src/db/schema.sql
+   mysql -u root -p -e "CREATE DATABASE Alumetal_store"
+   mysql -u root -p Alumetal_store < src/db/schema.sql
    ```
 2. Copy `.env.example` to `.env` and fill in your database credentials and
    a `JWT_SECRET`.

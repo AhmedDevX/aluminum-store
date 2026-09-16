@@ -1,5 +1,5 @@
 -- Run this once against your MySQL database before starting the server,
--- e.g.: mysql -u root -p aluminum_store < src/db/schema.sql
+-- e.g.: mysql -u root -p Alumetal_store < src/db/schema.sql
 
 CREATE TABLE IF NOT EXISTS users (
   id INT AUTO_INCREMENT PRIMARY KEY,
